@@ -1,0 +1,70 @@
+.superior{
+    padding-inline: 1.5rem;
+    padding-block: 2rem;
+    border-top-left-radius: 0.313rem;
+    border-top-right-radius: 0.313rem;
+}
+.superior p:nth-of-type(1){
+    font-weight: 700;
+    line-height: 1.25rem;
+    color: var(--Grayish--Blue);
+    margin-bottom: 1rem;
+}
+.superior p:nth-of-type(2){
+    line-height: 1.625rem;
+    color: var(--Grayish--Blue);
+    font-size: 0.875rem;
+}
+.esquerda{
+    padding: 1.5rem;
+    background-color: var(--cyan);
+}
+.esquerda div p:nth-of-type(1) {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.375rem;
+}
+.esquerda div p:nth-of-type(2) {
+    color: #fff;
+    opacity: 0.5;
+}
+.esquerda div {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    margin-bottom: 0.25rem;
+}
+
+
+.esquerda p {
+    color: #ffff;
+    line-height: 1.625rem;
+    margin-bottom: 1.625rem;
+}
+
+.esquerda button {
+    padding: 1rem 0 1rem 0;
+    width: 100%;
+    color: #ffff;
+    font-size: 1rem;
+    line-height: 1.125rem;
+    border: 0;
+    background-color: var(--bright-yellow);
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
+}
+
+.direita {
+    background-color: var(--light-cyan);
+    padding: 1.5rem;
+    border-radius: 0 0 5px 5px;
+    float: right;
+}
+
+.direita p {
+    line-height: 1.25rem;
+    font-size: 0.875rem;
+    color: #ffff;
+    opacity: 0.75;
+}
